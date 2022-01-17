@@ -1,0 +1,31 @@
+package selfProgramming;
+import java.util.Scanner;
+public class QUIZ2Q2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner input = new Scanner (System.in);
+		   int item[] = new int[5];
+		   int i;
+		   //Read integers number and store in item[i]
+		   System.out.println("Enter a positive integer:");
+			for(i = 0; i < item.length; i++)
+			  item[i] = input.nextInt();
+		   reverseOrder(item);
+		}
+		public static void reverseOrder(int [] item){	
+		   //Print the output in reverse order are:");
+		   System.out.println("The reverse is:");
+			for(int i = item.length-1; i >= 0; i--)
+			  System.out.println(item[i]);
+		
+
+
+
+
+
+		
+	}
+
+}
